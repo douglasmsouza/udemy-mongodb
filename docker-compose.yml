@@ -1,0 +1,6 @@
+services:
+  mongodb-server:
+    image: mongodb/mongodb-community-server:7.0.9-ubuntu2204
+    container_name: udemy-mongodb-server
+    ports:
+      - "27017:27017"
